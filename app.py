@@ -3,6 +3,7 @@ from flask import Flask, render_template,jsonify
 #jsonify converts anything into json object
 #render template to include the html file
 #Flask object created
+#in render go to settings and in custom domain addd your domain which you brought
 app = Flask(__name__)
 
 JOBS=[
