@@ -3,7 +3,7 @@ from flask import Flask, render_template,jsonify
 #jsonify converts anything into json object
 #render template to include the html file
 #Flask object created
-#in render go to settings and in custom domain addd your domain which you brought
+#in render go to settings and in custom domain addd your domain which you brought,then copy your ...render url and goto google domain then click manage-->DNS,then type the CNAME in Type,TTL is 3600 and in data copy your ...render link,and in hostname www,then add another record of type A ,Data 216.24.57.1,TTL=3600 and leave hostname empty
 app = Flask(__name__)
 
 JOBS=[
